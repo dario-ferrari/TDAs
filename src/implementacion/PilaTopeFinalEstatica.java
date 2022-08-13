@@ -3,9 +3,8 @@ import interfaces.PilaTDA;
 
 /**
  * @author Dario Ferrari
- * @Implementación de Pila Estática con tope al FINAL (último elemento ingresado en la ÚLTIMA posición del
- * vector). Esta es la implementación que dio la profesora.
- * POR ALGUNA RAZÓN EL PROGRAMA FUNCIONA MAL, Y FUNCIONA COMO UNA PILA CON TOPE AL INICIO, PERO ESTÁ BIEN CODIFICADO.
+ * @ImplementaciÃ³n de Pila EstÃ¡tica con tope al FINAL (Ãºltimo elemento ingresado en la ÃšLTIMA posiciÃ³n del
+ * vector). 
  *
  */
 
@@ -14,7 +13,7 @@ public class PilaTopeFinalEstatica implements PilaTDA {
 	private int vector[];
 	//Contenedor de los datos (o sea, la lista).
 	private int cant;
-	//La variable "cant" tiene la última POSICIÓN desocupada del vector.
+	//La variable "cant" tiene la Ãºltima POSICIÃ“N desocupada del vector.
 	
 	public void inicializarPila() {
 		vector=new int[100];
